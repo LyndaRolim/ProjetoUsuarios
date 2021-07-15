@@ -1,0 +1,58 @@
+/*14/07/2021*/ 
+
+body{
+    background-color: rgb(201, 226, 247);
+}
+
+.header-list{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.header-list div{
+    border-right: 1px solid rgba(83, 83, 83, 0.267);
+    padding: 5px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top:20px;
+}
+
+.li{
+    display:flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-left: 5px solid;
+    width: 100%;
+}
+
+.li:hover{
+    box-shadow: 3px 1px 3px #999;
+    cursor:pointer;
+}
+
+.li a div{
+    padding: 5px;
+}
+
+.opcoes{
+    background-color: white;
+    border: 1px solid #dee2e6!important;
+}
+
+.opcoes:hover{
+    box-shadow: 5px 3px 5px #999;
+}
+
+.a-collapse{
+    display: flex;
+}
+
+img{
+    width: 200px;
+}
